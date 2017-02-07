@@ -1,0 +1,32 @@
+<!--templates/index.html -->
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="static/sheet.css">
+		<title>Project 1</title>
+		<style type="text/css">
+			   body{
+
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: 65% 75%;
+            background-color: grey;
+		}
+		div{
+		    position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50);
+            background-origin: content-box;
+            background-color: white;
+		}
+		</style>
+	</head>
+	<body background={{picture}}>
+		<div>
+			{{tweety}}
+		    {{user}}	
+			{{id}}
+		</div>
+	</body>
+</html>
